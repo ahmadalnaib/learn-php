@@ -1,0 +1,25 @@
+
+
+input,textarea {
+  display:block;
+  padding:1rem;
+  margin: 1rem;
+  text-align: center;
+  background:#333;
+  color: #fff;
+
+}
+
+button {
+  display:block;
+  border: none;
+  width:60%;
+  color:#333;
+  background:#777;
+  cursor: pointer;
+}
+
+form {
+  display:grid;
+  grid-template-rows:repeat(4,1fr);
+}

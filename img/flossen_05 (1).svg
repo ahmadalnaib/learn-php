@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="148px" viewBox="0 0 165 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Flossen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="48 56 48 28 48 0 0 28"></polygon>
+        <polygon id="path-3" points="32 37 32 18.5 32 0 0 18.5"></polygon>
+        <polygon id="path-5" points="32 37 32 18.5 32 0 0 18.5"></polygon>
+        <polygon id="path-7" points="32 37 32 18.5 32 0 0 18.5"></polygon>
+    </defs>
+    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Startseite" transform="translate(-299.000000, -4020.000000)">
+            <g id="Kundenstimme-3" transform="translate(299.000000, 4020.000000)">
+                <g id="Flossen" transform="translate(82.500000, 74.000000) scale(-1, -1) translate(-82.500000, -74.000000) ">
+                    <g id="Dreieck-/-Links-/-48" transform="translate(29.000000, 0.000000)">
+                        <g id="Colors">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#7CB38E" xlink:href="#path-1"></use>
+                            <g id="Colors-/-Orange" mask="url(#mask-2)" fill="#ffa202">
+                                <rect id="Rectangle" x="0" y="0" width="48" height="56"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Dreieck-/-Links-/-32" transform="translate(133.000000, 50.000000)">
+                        <g id="Colors">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#7CB38E" xlink:href="#path-3"></use>
+                            <g id="Colors-/-Light-blue" mask="url(#mask-4)" fill="#00bdda">
+                                <rect id="Rectangle" x="0" y="0" width="32" height="37"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Dreieck-/-Links-/-32" transform="translate(96.000000, 111.000000)">
+                        <g id="Colors">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" fill="#7CB38E" xlink:href="#path-5"></use>
+                            <g id="Colors-/-Green" mask="url(#mask-6)" fill="#46C4AC">
+                                <rect id="Rectangle" x="0" y="0" width="32" height="37"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Dreieck-/-Links-/-32" transform="translate(0.000000, 75.000000)">
+                        <g id="Colors">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Mask" fill="#7CB38E" xlink:href="#path-7"></use>
+                            <g id="Colors-/-Red" mask="url(#mask-8)" fill="#FF0201">
+                                <rect id="Rectangle" x="0" y="0" width="32" height="37"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
