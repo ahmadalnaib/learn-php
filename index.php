@@ -21,9 +21,40 @@ if(filter_has_var(INPUT_POST,"submit")){
     $msgClass="alert-danger";
 
     }else {
-    $msg="Welocme with us 😁 $name";
-    $msgClass="alert-info";
 
+      $toEmail="alnaib888@gmail.com";
+      $subject="Contact Request Form".$name;
+      $body="<h2>Contact request</h2>
+
+            <h2>Name</h2> <p> '.$name.'</p>
+            <h2>Email</h2> <p> '.$email.'</p>
+            <h2>Message</h2> <p> '.$message.'</p>
+      ";
+ 
+          
+
+      $headers= "MIME-Version: 1.0" . "\r\n";
+      $headers .="Content-Type:text/html; charset=UTF-8" ."\r\n";
+
+
+
+      $headers .= "From: " .$name. "<" .$email. ">"."\r\n";
+        
+
+      if(mail($toEmail,$subject,$body ,$headers)){
+
+        
+    $msg="the Email send! 😎";
+    $msgClass="alert-info";
+        
+      }else{
+           
+    $msg="the Email  did not send! 🤦‍♂️🤦‍♀️";
+    $msgClass="alert-danger";
+
+      }
+
+     
     }
     
 
