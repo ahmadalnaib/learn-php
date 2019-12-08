@@ -9,9 +9,9 @@ if(filter_has_var(INPUT_POST,"submit")){
 
 
   //get the form data
-  $name=$_POST["name"];
-  $email=$_POST["email"];
-  $message=$_POST["message"];
+  $name=htmlspecialchars($_POST["name"]);
+  $email=htmlspecialchars($_POST["email"]);
+  $message=htmlspecialchars($_POST["message"]);
 
   if(!empty($name) && !empty($email) && !empty($message)) {
     // passed
@@ -71,19 +71,24 @@ if(filter_has_var(INPUT_POST,"submit")){
 
   <div class="form-group">
     <label >Name</label>
-    <input type="text" class="form-control" name="name" value="">
+    <input type="text" class="form-control" name="name" value="<?php echo isset($_POST["name"]) ? $name : ""; ?>" >
   </div>
 
   <div class="form-group">
     <label >Email</label>
-    <input type="text" class="form-control"  name="email" value="">
+    <input type="text" class="form-control"  name="email" value="<?php echo isset($_POST['email']) ? $email :"";?>">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
 
   <div class="form-group ">
   <label>Message</label>
-    <textarea  class="form-control" name="message" value="" ></textarea>
+    <textarea  class="form-control" name="message"
+
+    <? echo isset($_POST["message"])? $message :""; ?>
+     </textarea>
   </div>
+
+
   <button type="submit" name="submit" class="btn btn-primary">Submit</button>
 </form>
 </div>
